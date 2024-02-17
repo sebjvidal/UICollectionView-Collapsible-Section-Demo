@@ -9,64 +9,27 @@
 /* Begin PBXBuildFile section */
 		C207C6EC2B80C151002D0C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C6EB2B80C151002D0C4C /* AppDelegate.swift */; };
 		C207C6EE2B80C151002D0C4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C6ED2B80C151002D0C4C /* SceneDelegate.swift */; };
-		C207C6F02B80C151002D0C4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C6EF2B80C151002D0C4C /* ViewController.swift */; };
-		C207C6F32B80C151002D0C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C207C6F12B80C151002D0C4C /* Main.storyboard */; };
+		C207C6F02B80C151002D0C4C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C6EF2B80C151002D0C4C /* CollectionViewController.swift */; };
 		C207C6F52B80C152002D0C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C207C6F42B80C152002D0C4C /* Assets.xcassets */; };
 		C207C6F82B80C152002D0C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C207C6F62B80C152002D0C4C /* LaunchScreen.storyboard */; };
-		C207C7032B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C7022B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoTests.swift */; };
-		C207C70D2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C70C2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITests.swift */; };
-		C207C70F2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C70E2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITestsLaunchTests.swift */; };
+		C207C71C2B80C1C2002D0C4C /* CollectionViewController+DiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C71B2B80C1C2002D0C4C /* CollectionViewController+DiffableDataSource.swift */; };
+		C207C7262B80C218002D0C4C /* UICollectionViewLayout+SectionedListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C7252B80C218002D0C4C /* UICollectionViewLayout+SectionedListLayout.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C207C6FF2B80C152002D0C4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C207C6E02B80C151002D0C4C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C207C6E72B80C151002D0C4C;
-			remoteInfo = "UICollectionView-Collapsible-Section-Demo";
-		};
-		C207C7092B80C152002D0C4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C207C6E02B80C151002D0C4C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C207C6E72B80C151002D0C4C;
-			remoteInfo = "UICollectionView-Collapsible-Section-Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C207C6E82B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView-Collapsible-Section-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C207C6EB2B80C151002D0C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C207C6ED2B80C151002D0C4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C207C6EF2B80C151002D0C4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C207C6F22B80C151002D0C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C207C6EF2B80C151002D0C4C /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		C207C6F42B80C152002D0C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C207C6F72B80C152002D0C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C207C6F92B80C152002D0C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C207C6FE2B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectionView-Collapsible-Section-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C207C7022B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView_Collapsible_Section_DemoTests.swift; sourceTree = "<group>"; };
-		C207C7082B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectionView-Collapsible-Section-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C207C70C2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView_Collapsible_Section_DemoUITests.swift; sourceTree = "<group>"; };
-		C207C70E2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView_Collapsible_Section_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C207C71B2B80C1C2002D0C4C /* CollectionViewController+DiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewController+DiffableDataSource.swift"; sourceTree = "<group>"; };
+		C207C7252B80C218002D0C4C /* UICollectionViewLayout+SectionedListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewLayout+SectionedListLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C207C6E52B80C151002D0C4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C207C6FB2B80C152002D0C4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C207C7052B80C152002D0C4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				C207C6EA2B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo */,
-				C207C7012B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoTests */,
-				C207C70B2B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoUITests */,
 				C207C6E92B80C151002D0C4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				C207C6E82B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo.app */,
-				C207C6FE2B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoTests.xctest */,
-				C207C7082B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +58,104 @@
 		C207C6EA2B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C207C6EB2B80C151002D0C4C /* AppDelegate.swift */,
-				C207C6ED2B80C151002D0C4C /* SceneDelegate.swift */,
-				C207C6EF2B80C151002D0C4C /* ViewController.swift */,
-				C207C6F12B80C151002D0C4C /* Main.storyboard */,
-				C207C6F42B80C152002D0C4C /* Assets.xcassets */,
-				C207C6F62B80C152002D0C4C /* LaunchScreen.storyboard */,
-				C207C6F92B80C152002D0C4C /* Info.plist */,
+				C207C71E2B80C1D9002D0C4C /* Base */,
+				C207C7292B80C236002D0C4C /* View Controllers */,
+				C207C7212B80C1EB002D0C4C /* Resources */,
 			);
 			path = "UICollectionView-Collapsible-Section-Demo";
 			sourceTree = "<group>";
 		};
-		C207C7012B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoTests */ = {
+		C207C71D2B80C1D3002D0C4C /* CollectionViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C207C7022B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoTests.swift */,
+				C207C6EF2B80C151002D0C4C /* CollectionViewController.swift */,
+				C207C71B2B80C1C2002D0C4C /* CollectionViewController+DiffableDataSource.swift */,
 			);
-			path = "UICollectionView-Collapsible-Section-DemoTests";
+			path = CollectionViewController;
 			sourceTree = "<group>";
 		};
-		C207C70B2B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoUITests */ = {
+		C207C71E2B80C1D9002D0C4C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				C207C70C2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITests.swift */,
-				C207C70E2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITestsLaunchTests.swift */,
+				C207C71F2B80C1DD002D0C4C /* AppDelegate */,
+				C207C7202B80C1E2002D0C4C /* SceneDelegate */,
 			);
-			path = "UICollectionView-Collapsible-Section-DemoUITests";
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C207C71F2B80C1DD002D0C4C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C207C6EB2B80C151002D0C4C /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C207C7202B80C1E2002D0C4C /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C207C6ED2B80C151002D0C4C /* SceneDelegate.swift */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		C207C7212B80C1EB002D0C4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C207C7222B80C1F2002D0C4C /* Assets */,
+				C207C7282B80C228002D0C4C /* Extensions */,
+				C207C7232B80C1F6002D0C4C /* Storyboards */,
+				C207C7242B80C202002D0C4C /* Supporting Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C207C7222B80C1F2002D0C4C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C207C6F42B80C152002D0C4C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C207C7232B80C1F6002D0C4C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C207C6F62B80C152002D0C4C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C207C7242B80C202002D0C4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C207C6F92B80C152002D0C4C /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C207C7272B80C225002D0C4C /* UICollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C207C7252B80C218002D0C4C /* UICollectionViewLayout+SectionedListLayout.swift */,
+			);
+			path = UICollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		C207C7282B80C228002D0C4C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C207C7272B80C225002D0C4C /* UICollectionViewLayout */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C207C7292B80C236002D0C4C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C207C71D2B80C1D3002D0C4C /* CollectionViewController */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +178,6 @@
 			productReference = C207C6E82B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C207C6FD2B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C207C7152B80C152002D0C4C /* Build configuration list for PBXNativeTarget "UICollectionView-Collapsible-Section-DemoTests" */;
-			buildPhases = (
-				C207C6FA2B80C152002D0C4C /* Sources */,
-				C207C6FB2B80C152002D0C4C /* Frameworks */,
-				C207C6FC2B80C152002D0C4C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C207C7002B80C152002D0C4C /* PBXTargetDependency */,
-			);
-			name = "UICollectionView-Collapsible-Section-DemoTests";
-			productName = "UICollectionView-Collapsible-Section-DemoTests";
-			productReference = C207C6FE2B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C207C7072B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C207C7182B80C152002D0C4C /* Build configuration list for PBXNativeTarget "UICollectionView-Collapsible-Section-DemoUITests" */;
-			buildPhases = (
-				C207C7042B80C152002D0C4C /* Sources */,
-				C207C7052B80C152002D0C4C /* Frameworks */,
-				C207C7062B80C152002D0C4C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C207C70A2B80C152002D0C4C /* PBXTargetDependency */,
-			);
-			name = "UICollectionView-Collapsible-Section-DemoUITests";
-			productName = "UICollectionView-Collapsible-Section-DemoUITests";
-			productReference = C207C7082B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +190,6 @@
 				TargetAttributes = {
 					C207C6E72B80C151002D0C4C = {
 						CreatedOnToolsVersion = 15.0;
-					};
-					C207C6FD2B80C152002D0C4C = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = C207C6E72B80C151002D0C4C;
-					};
-					C207C7072B80C152002D0C4C = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = C207C6E72B80C151002D0C4C;
 					};
 				};
 			};
@@ -220,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				C207C6E72B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo */,
-				C207C6FD2B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoTests */,
-				C207C7072B80C152002D0C4C /* UICollectionView-Collapsible-Section-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +218,6 @@
 			files = (
 				C207C6F82B80C152002D0C4C /* LaunchScreen.storyboard in Resources */,
 				C207C6F52B80C152002D0C4C /* Assets.xcassets in Resources */,
-				C207C6F32B80C151002D0C4C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C207C6FC2B80C152002D0C4C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C207C7062B80C152002D0C4C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,53 +228,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C207C6F02B80C151002D0C4C /* ViewController.swift in Sources */,
+				C207C6F02B80C151002D0C4C /* CollectionViewController.swift in Sources */,
 				C207C6EC2B80C151002D0C4C /* AppDelegate.swift in Sources */,
+				C207C71C2B80C1C2002D0C4C /* CollectionViewController+DiffableDataSource.swift in Sources */,
 				C207C6EE2B80C151002D0C4C /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C207C6FA2B80C152002D0C4C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C207C7032B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C207C7042B80C152002D0C4C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C207C70D2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITests.swift in Sources */,
-				C207C70F2B80C152002D0C4C /* UICollectionView_Collapsible_Section_DemoUITestsLaunchTests.swift in Sources */,
+				C207C7262B80C218002D0C4C /* UICollectionViewLayout+SectionedListLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C207C7002B80C152002D0C4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C207C6E72B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo */;
-			targetProxy = C207C6FF2B80C152002D0C4C /* PBXContainerItemProxy */;
-		};
-		C207C70A2B80C152002D0C4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C207C6E72B80C151002D0C4C /* UICollectionView-Collapsible-Section-Demo */;
-			targetProxy = C207C7092B80C152002D0C4C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		C207C6F12B80C151002D0C4C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C207C6F22B80C151002D0C4C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C207C6F62B80C152002D0C4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,10 +378,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY2GQFY855;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UICollectionView-Collapsible-Section-Demo/Info.plist";
+				INFOPLIST_FILE = "UICollectionView-Collapsible-Section-Demo/Resources/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,10 +405,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY2GQFY855;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UICollectionView-Collapsible-Section-Demo/Info.plist";
+				INFOPLIST_FILE = "UICollectionView-Collapsible-Section-Demo/Resources/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,82 +420,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C207C7162B80C152002D0C4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DY2GQFY855;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sebvidal.UICollectionView-Collapsible-Section-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView-Collapsible-Section-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UICollectionView-Collapsible-Section-Demo";
-			};
-			name = Debug;
-		};
-		C207C7172B80C152002D0C4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DY2GQFY855;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sebvidal.UICollectionView-Collapsible-Section-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView-Collapsible-Section-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UICollectionView-Collapsible-Section-Demo";
-			};
-			name = Release;
-		};
-		C207C7192B80C152002D0C4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DY2GQFY855;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sebvidal.UICollectionView-Collapsible-Section-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "UICollectionView-Collapsible-Section-Demo";
-			};
-			name = Debug;
-		};
-		C207C71A2B80C152002D0C4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DY2GQFY855;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sebvidal.UICollectionView-Collapsible-Section-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "UICollectionView-Collapsible-Section-Demo";
 			};
 			name = Release;
 		};
@@ -584,24 +440,6 @@
 			buildConfigurations = (
 				C207C7132B80C152002D0C4C /* Debug */,
 				C207C7142B80C152002D0C4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C207C7152B80C152002D0C4C /* Build configuration list for PBXNativeTarget "UICollectionView-Collapsible-Section-DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C207C7162B80C152002D0C4C /* Debug */,
-				C207C7172B80C152002D0C4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C207C7182B80C152002D0C4C /* Build configuration list for PBXNativeTarget "UICollectionView-Collapsible-Section-DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C207C7192B80C152002D0C4C /* Debug */,
-				C207C71A2B80C152002D0C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
